@@ -1,0 +1,74 @@
+/* Reset Básico Aesthetic */
+body {
+ background-color: #ffeef8; /* Rosa Choquei */
+ font-family: 'Arial', sans-serif;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ margin: 0;
+}
+/* O Celular da Virgínia */
+.iphone-15-pro-max {
+ background-color: #fff;
+ width: 320px;
+ height: 600px;
+ border-radius: 40px;
+ border: 8px solid #ff007f; /* Rosa WePink */
+ box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+ overflow: hidden;
+ display: flex;
+ flex-direction: column;
+}
+header {
+ background-color: #ff007f;
+ color: white;
+ padding: 15px;
+ text-align: center;
+ font-weight: bold;
+}
+/* A CENA DO CRIME: É AQUI QUE VOCÊS TRABALHAM */
+.tela-jogo {
+ background-color: #222; /* Fundo Dark Mode */
+ flex: 1; /* Ocupa o meio da tela */
+ padding: 10px;
+ margin: 10px;
+ border: 2px solid gold; /* Ouro */
+ border-radius: 15px;
+ overflow-y: auto; /* Rolagem pra não vazar print feio */
+
+ /* ARRUMEM AQUI ANTES QUE O LEO DIAS POSTE! */
+}
+/* Os Emojis (Itens) */
+.item {
+ display: flex;
+ justify-content: space-around; 
+ font-size: 2.5rem;
+ background-color: rgba(255, 255, 255, 0.1);
+ border-radius: 10px;
+ width: 60px;
+ height: 60px;
+ margin: 4px;
+
+ /* Centraliza o emoji no quadrado */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: 1px solid rgba(255,255,255,0.2);
+}
+/* Botões */
+.controles {
+ padding: 15px;
+ display: flex;
+ gap: 10px;
+}
+.botao {
+ padding: 15px;
+ border: none;
+ border-radius: 10px;
+ font-weight: bold;
+ cursor: pointer;
+}
+.deposito { background-color: #ddd; color: #333; }
+.apostar { background-color: #00ff7f; color: #004422; }
+footer { text-align: center; color: #aaa; padding-bottom: 10px; }
