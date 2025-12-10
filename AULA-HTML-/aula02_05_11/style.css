@@ -1,0 +1,44 @@
+body {
+    background-color: aqua;
+}
+
+.head {
+    background-color: midnightblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+    border: 10px solid #0c0a0a;
+}
+
+#caixa1 {
+    background-color: rgb(71, 187, 255);
+    border: 2px solid rgb(255, 22, 22);
+    padding: 15px;
+    margin-bottom: 10px;
+    color: yellow;
+    border-radius: 5px;
+
+}
+
+#caixa2 {
+    background-color: rgb(102, 247, 174);
+    border: 2px solid rgb(230, 243, 230);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#caixa3 {
+    background-color: white;
+    border: 2px solid rgb(22, 22, 255);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
